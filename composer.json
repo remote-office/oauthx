@@ -1,0 +1,21 @@
+{
+	"name" : "oauthx/oauthx",
+	"description" : "Pure PHP oAuth Library",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "David Betgen",
+			"email" : "d.betgen@remote-office.nl"
+		}
+	],
+	"minimum-stability" : "stable",
+	"require" : {
+		"php" : ">=7.0.0",
+		"libx/libx" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"OAuthX\\" : "src/"
+		}
+	}
+}
